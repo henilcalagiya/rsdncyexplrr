@@ -1,0 +1,13 @@
+# raw browser-saved pages (1.2 GB) — parsed into program-details/ + residency_explorer.db
+data/
+
+# generated locally: python3 load_programs.py && python3 load_links.py && python3 load_details.py
+residency_explorer.db
+
+# next.js
+web/node_modules/
+web/.next/
+web/out/
+
+.DS_Store
+*.log

@@ -1,0 +1,205 @@
+program	step2ck	level2ce	signal	no_signal	in_state	out_of_state	md	do	us_img	non_us_img	city	state	region
+Abbott-Northwestern Hospital/Allina Health System Program	222-264	!	14%	5%	80%	6%	26%	5%	4%	4%	Minneapolis	MN	West North Central
+AdventHealth Florida Program	235-264	452-661	18%	10%	43%	10%	32%	20%	7%	5%	Orlando	FL	South Atlantic
+Albany Med Health System Program	232-264	447-667	42%	9%	63%	9%	27%	27%	3%	2%	Albany	NY	Middle Atlantic
+Allegheny Health Network Medical Education Consortium (AGH) Program	231-270	494-646	22%	7%	39%	8%	16%	15%	4%	8%	Pittsburgh	PA	Middle Atlantic
+Arrowhead Regional Medical Center Program	232-264	434-718	11%	12%	40%	6%	26%	11%	5%	0%	Colton	CA	Pacific
+Barrow Neurological Institute at St Joseph's Hospital and Medical Center Program	233-270	!	53%	13%	40%	17%	40%	7%	0%	3%	Phoenix	AZ	Mountain
+Baylor College of Medicine Program	--	--	--	--	--	--	--	--	--	--	Houston	TX	West South Central
+Baylor Scott & White Medical Center - Baylor College of Medicine (Temple) Program	238-258	473-679	35%	12%	65%	9%	43%	20%	12%	2%	Temple	TX	West South Central
+Baylor University Medical Center Program	237-270	!	16%	13%	29%	12%	19%	7%	5%	16%	Dallas	TX	West South Central
+Beth Israel Deaconess Medical Center/Harvard Medical School Program	250-273	--	45%	11%	50%	18%	32%	0%	0%	1%	Boston	MA	New England
+Boston University Medical Center Program	245-273	--	40%	14%	82%	16%	32%	0%	0%	0%	Boston	MA	New England
+Broward Health Program	226-262	435-606	29%	7%	74%	7%	32%	15%	15%	0%	Deerfield Beach	FL	South Atlantic
+Carilion Clinic-Virginia Tech Carilion School of Medicine Program	228-263	439-590	20%	6%	64%	7%	15%	15%	5%	5%	Roanoke	VA	South Atlantic
+Carle Foundation Hospital Program	224-266	420-672	18%	8%	41%	8%	17%	12%	8%	6%	Urbana	IL	East North Central
+Carolinas Medical Center Program	225-267	437-658	44%	5%	69%	7%	20%	9%	2%	4%	Charlotte	NC	South Atlantic
+Case Western Reserve University/University Hospitals Cleveland Medical Center Program	236-272	492-836	46%	8%	74%	10%	30%	9%	0%	4%	Cleveland	OH	East North Central
+Cedars-Sinai Medical Center Program	239-273	!	52%	3%	37%	9%	28%	5%	0%	2%	Los Angeles	CA	Pacific
+Charleston Area Medical Center Program	232-264	469-671	29%	5%	64%	6%	6%	17%	1%	7%	Charleston	WV	South Atlantic
+Cleveland Clinic Foundation Program	240-271	527-798	38%	1%	43%	9%	21%	9%	2%	4%	Cleveland	OH	East North Central
+Cleveland Clinic Foundation/Florida Weston Program	--	--	--	--	--	--	--	--	--	--	Weston	FL	South Atlantic
+Cooper Medical School of Rowan University/Cooper University Hospital Program	231-266	436-669	26%	3%	66%	7%	18%	16%	4%	4%	Camden	NJ	Middle Atlantic
+Corewell Health – Grand Rapids/Michigan State University Program	228-267	420-673	53%	2%	59%	6%	12%	15%	5%	6%	Grand Rapids	MI	East North Central
+Corewell Health/William Beaumont University (Farmington Hills/Royal Oak) Program	--	--	--	--	--	--	--	--	--	--	Farmington Hills	MI	East North Central
+Creighton University School of Medicine (Omaha) Program	239-270	!	12%	8%	75%	7%	13%	8%	1%	9%	Omaha	NE	West North Central
+Dartmouth-Hitchcock/Mary Hitchcock Memorial Hospital Program	236-268	496-763	44%	10%	!	13%	27%	23%	2%	0%	Lebanon	NH	New England
+Detroit Medical Center/Wayne State University Program	227-264	436-671	24%	8%	64%	9%	17%	14%	8%	10%	Detroit	MI	East North Central
+Doctors Hospital at Renaissance, Ltd. Program	219-258	!	--	--	!	19%	0%	22%	16%	20%	Edinburg	TX	West South Central
+Duke University Hospital Program	254-273	597-760	27%	10%	23%	13%	21%	10%	0%	5%	Durham	NC	South Atlantic
+ECU Health Medical Center Program	--	--	--	--	--	--	--	--	--	--	Greenville	NC	South Atlantic
+Emory University School of Medicine Program	238-270	!	47%	2%	69%	11%	25%	10%	0%	3%	Atlanta	GA	South Atlantic
+Florida Atlantic University Charles E. Schmidt College of Medicine Program	223-260	442-619	53%	1%	30%	5%	9%	9%	9%	1%	Boca Raton	FL	South Atlantic
+Florida International University / Baptist Health Program	228-263	445-715	41%	4%	55%	7%	31%	10%	7%	2%	Miami	FL	South Atlantic
+Garden City Hospital Program	222-250	!	19%	5%	25%	6%	8%	6%	20%	2%	Garden City	MI	East North Central
+Garnet Health Medical Center Program	226-257	445-667	22%	21%	46%	19%	33%	34%	15%	1%	Middletown	NY	Middle Atlantic
+Geisinger Health System (Danville) Program	227-260	444-660	52%	7%	58%	9%	28%	23%	0%	5%	Danville	PA	Middle Atlantic
+Geisinger Health System Program (Wilkes-Barre)	234-266	479-670	22%	7%	52%	8%	28%	14%	1%	7%	Wilkes-Barre	PA	Middle Atlantic
+George Washington University Program	233-269	493-739	34%	11%	71%	13%	26%	10%	0%	3%	Washington	DC	South Atlantic
+Hackensack Meridian Health/Hackensack University Medical Center Program	240-260	498-635	9%	7%	61%	5%	24%	11%	5%	0%	Hackensack	NJ	Middle Atlantic
+Hackensack Meridian Health/JFK University Medical Center Program	232-267	!	10%	9%	43%	8%	17%	7%	13%	6%	Edison	NJ	Middle Atlantic
+HCA Florida Healthcare/Kendall Hospital Program	224-255	368-651	16%	7%	50%	7%	15%	12%	11%	3%	Miami	FL	South Atlantic
+HCA Florida Healthcare/Westside/Northwest Hospital Program	228-256	443-636	38%	15%	95%	13%	30%	25%	12%	0%	Margate	FL	South Atlantic
+HCA Healthcare Riverside Program	219-255	451-611	55%	2%	39%	6%	18%	14%	5%	0%	Riverside	CA	Pacific
+HCA Healthcare Sunrise Health GME/Southern Hills Program	232-262	475-663	25%	15%	78%	14%	25%	26%	8%	2%	Las Vegas	NV	Mountain
+HCA Healthcare/Los Robles Regional Medical Center Program	225-262	453-650	32%	12%	63%	8%	31%	29%	4%	0%	Thousand Oaks	CA	Pacific
+HCA Healthcare/TriStar Nashville/Skyline Medical Center Program	228-257	453-613	39%	27%	88%	24%	56%	59%	2%	2%	Nashville	TN	East South Central
+HCA HealthONE/Swedish Medical Center Program	229-262	470-673	73%	15%	75%	20%	39%	30%	0%	0%	Englewood	CO	Mountain
+Henry Ford Health/Henry Ford Hospital Program	234-264	445-673	31%	6%	81%	9%	30%	23%	2%	5%	Detroit	MI	East North Central
+Henry Ford Warren Hospital Program	224-256	444-620	58%	13%	55%	13%	6%	42%	1%	1%	Warren	MI	East North Central
+Houston Methodist Hospital (Medical Center) Program	238-270	!	25%	12%	76%	9%	48%	4%	4%	7%	Houston	TX	West South Central
+Howard University Program	223-260	!	23%	25%	43%	24%	29%	13%	25%	26%	Washington	DC	South Atlantic
+Icahn School of Medicine at Mount Sinai/Mount Sinai Hospital Program	239-270	--	43%	1%	40%	9%	23%	0%	1%	1%	New York	NY	Middle Atlantic
+Icahn School of Medicine at Mount Sinai/West Program	230-265	499-752	42%	4%	34%	9%	26%	11%	2%	1%	New York	NY	Middle Atlantic
+Indiana University School of Medicine Program	233-264	425-656	46%	7%	96%	9%	22%	14%	0%	2%	Indianapolis	IN	East North Central
+Inspira Health Network Program	229-268	426-680	18%	9%	85%	8%	32%	27%	1%	4%	Mullica Hill	NJ	Middle Atlantic
+Jefferson Health Medical Education/Jefferson Einstein Philadelphia Hospital Program	229-264	!	35%	3%	18%	9%	8%	5%	4%	14%	Philadelphia	PA	Middle Atlantic
+Johns Hopkins University Program	243-273	--	44%	15%	50%	20%	35%	0%	0%	4%	Baltimore	MD	South Atlantic
+Kaiser Permanente Southern California (Los Angeles) Program	241-262	493-700	35%	9%	42%	9%	20%	19%	0%	0%	Los Angeles	CA	Pacific
+Keck School of Medicine of USC Program	--	--	--	--	--	--	--	--	--	--	Los Angeles	CA	Pacific
+Kettering Health Network Program	--	--	--	--	--	--	--	--	--	--	Dayton	OH	East North Central
+Larkin Community Hospital Palm Springs Campus Program	216-253	!	15%	4%	33%	4%	8%	4%	13%	1%	Hialeah	FL	South Atlantic
+Larkin Community Hospital Program	210-257	!	14%	2%	0%	5%	1%	1%	6%	5%	South Miami	FL	South Atlantic
+Lehigh Valley Health Network Program	232-265	459-685	35%	15%	44%	16%	35%	19%	11%	12%	Allentown	PA	Middle Atlantic
+Loma Linda University Health Education Consortium Program	233-264	479-674	51%	10%	69%	8%	29%	23%	8%	4%	Loma Linda	CA	Pacific
+Los Angeles County-Harbor-UCLA Medical Center Program	230-261	471-703	46%	1%	41%	6%	22%	13%	1%	1%	Torrance	CA	Pacific
+Louisiana State University (Shreveport) Program	227-264	--	25%	4%	45%	9%	8%	0%	4%	12%	Shreveport	LA	West South Central
+Louisiana State University School of Medicine Program	224-265	!	36%	3%	59%	4%	19%	3%	3%	3%	New Orleans	LA	West South Central
+Loyola University Medical Center Program	229-263	436-664	66%	4%	49%	10%	20%	19%	1%	1%	Maywood	IL	East North Central
+Madigan Army Medical Center Program	--	--	--	--	--	--	--	--	--	--	Tacoma	WA	Pacific
+MaineHealth Program	230-262	!	--	--	--	--	--	--	--	--	Portland	ME	New England
+Marshall University School of Medicine Program	233-263	477-672	10%	8%	85%	6%	24%	28%	1%	2%	Huntington	WV	South Atlantic
+Mary Washington Healthcare Program	--	--	--	--	--	--	--	--	--	--	Fredericksburg	VA	South Atlantic
+Mass General Brigham/Brigham and Women's Hospital/Massachusetts General Hospital/Harvard Medical School Program	250-274	--	36%	7%	56%	16%	28%	0%	0%	4%	Boston	MA	New England
+Mayo Clinic College of Medicine and Science (Jacksonville) Program	244-272	575-789	28%	5%	24%	8%	18%	9%	0%	2%	Jacksonville	FL	South Atlantic
+Mayo Clinic College of Medicine and Science (Rochester) Program	--	--	--	--	--	--	--	--	--	--	Rochester	MN	West North Central
+Mayo Clinic College of Medicine and Science (Scottsdale) Program	239-273	559-841	40%	7%	41%	9%	24%	10%	1%	1%	Scottsdale	AZ	Mountain
+McGaw Medical Center of Northwestern University Program	245-273	--	40%	4%	30%	13%	21%	0%	0%	0%	Chicago	IL	East North Central
+Medical College of Georgia Program	227-267	443-695	51%	3%	100%	10%	22%	9%	11%	9%	Augusta	GA	South Atlantic
+Medical College of Wisconsin Affiliated Hospitals Program	232-264	458-698	70%	7%	100%	13%	26%	20%	6%	5%	Milwaukee	WI	East North Central
+Medical University of South Carolina Program	235-271	!	38%	4%	33%	8%	19%	5%	1%	5%	Charleston	SC	South Atlantic
+MedStar Health Georgetown University Program	237-266	468-711	52%	0%	56%	11%	22%	13%	3%	1%	Washington	DC	South Atlantic
+Memorial Healthcare System, Hollywood, Florida Program	233-268	425-638	36%	6%	50%	7%	20%	14%	5%	5%	Pembroke Pines	FL	South Atlantic
+Mercy St Vincent Medical Center Program	227-269	433-668	22%	18%	85%	17%	49%	29%	20%	12%	Toledo	OH	East North Central
+Montefiore Medical Center/Albert Einstein College of Medicine Program	231-267	--	52%	8%	60%	10%	32%	0%	1%	1%	Bronx	NY	Middle Atlantic
+Morehouse School of Medicine Program	227-255	484-653	20%	10%	64%	10%	35%	25%	8%	1%	Atlanta	GA	South Atlantic
+National Capital Consortium Program	--	--	--	--	--	--	--	--	--	--	Bethesda	MD	South Atlantic
+New York Presbyterian Hospital (Columbia Campus) Program	252-273	--	46%	3%	45%	10%	24%	0%	1%	0%	New York	NY	Middle Atlantic
+New York Presbyterian Hospital (Cornell Campus) Program	--	--	--	--	--	--	--	--	--	--	New York	NY	Middle Atlantic
+NYU Grossman School of Medicine Program	241-270	528-703	57%	19%	67%	27%	48%	35%	10%	10%	New York	NY	Middle Atlantic
+NYU Long Island School of Medicine Program	231-263	488-685	32%	15%	42%	14%	24%	46%	11%	2%	Mineola	NY	Middle Atlantic
+Ochsner Clinic Foundation Program	227-260	455-661	27%	15%	79%	15%	50%	30%	1%	0%	New Orleans	LA	West South Central
+Ohio State University Hospital Program	232-270	488-663	45%	11%	52%	13%	26%	10%	1%	6%	Columbus	OH	East North Central
+Oklahoma State University Center for Health Sciences Program	227-260	!	--	--	100%	13%	50%	31%	9%	2%	Tulsa	OK	West South Central
+Old Dominion University Program	229-264	!	13%	9%	71%	8%	54%	4%	2%	3%	Norfolk	VA	South Atlantic
+OPTI West/Valley Hospital Medical Center Program	--	--	--	--	--	--	--	--	--	--	Las Vegas	NV	Mountain
+Oregon Health & Science University (OHSU Health) Program	237-272	459-678	49%	13%	100%	18%	33%	11%	0%	0%	Portland	OR	Pacific
+Orlando Health Program	224-264	448-693	50%	1%	18%	4%	8%	11%	3%	0%	Orlando	FL	South Atlantic
+Palmetto General Hospital Program	220-260	!	15%	3%	26%	3%	5%	8%	4%	0%	Hialeah	FL	South Atlantic
+Penn State Milton S Hershey Medical Center Program	232-266	488-731	47%	1%	35%	5%	16%	10%	1%	2%	Hershey	PA	Middle Atlantic
+Prisma Health/University of South Carolina SOM Columbia (Columbia) Program	238-267	458-700	43%	11%	46%	12%	43%	7%	3%	3%	Columbia	SC	South Atlantic
+Prisma Health/University of South Carolina SOM Greenville (Greer) Program	225-263	431-633	55%	8%	79%	12%	23%	26%	9%	4%	Greer	SC	South Atlantic
+Rhode Island Hospital/Brown University Health Program	--	--	--	--	--	--	--	--	--	--	Providence	RI	New England
+Riverside University Health System Program	230-257	460-602	47%	12%	52%	9%	32%	17%	1%	0%	Moreno Valley	CA	Pacific
+Rush University Medical Center Program	245-272	--	44%	2%	37%	11%	23%	0%	3%	0%	Chicago	IL	East North Central
+Rutgers Health/New Jersey Medical School Program	232-269	457-786	20%	3%	41%	5%	10%	10%	4%	3%	Newark	NJ	Middle Atlantic
+Rutgers Health/Robert Wood Johnson Medical School Program	226-264	447-633	44%	11%	92%	13%	23%	18%	20%	7%	New Brunswick	NJ	Middle Atlantic
+San Antonio Uniformed Services Health Education Consortium Program	--	--	--	--	--	--	--	--	--	--	JBSA-Fort Sam Houston	TX	West South Central
+Sidney Kimmel Medical College at Thomas Jefferson University/TJUH Program	235-269	!	52%	3%	40%	9%	21%	2%	1%	1%	Philadelphia	PA	Middle Atlantic
+Southern Illinois University Program	--	--	--	--	--	--	--	--	--	--	Springfield	IL	East North Central
+SSM Health/Saint Louis University School of Medicine Program	233-268	432-684	26%	8%	53%	9%	32%	13%	5%	4%	St Louis	MO	West North Central
+St Joseph's Medical Center Program	231-265	445-676	34%	17%	42%	15%	33%	36%	0%	1%	Stockton	CA	Pacific
+St Luke’s Hospital – Anderson Campus Program	228-264	472-688	44%	25%	79%	20%	46%	31%	0%	0%	Easton	PA	Middle Atlantic
+Stanford Health Care-Sponsored Stanford University Program	242-271	--	44%	3%	22%	13%	24%	0%	0%	1%	Stanford	CA	Pacific
+Stony Brook Medicine/University Hospital Program	230-263	449-690	53%	16%	68%	16%	37%	33%	6%	1%	Stony Brook	NY	Middle Atlantic
+SUNY Downstate Health Sciences University Program	228-264	!	18%	8%	37%	9%	27%	5%	6%	5%	Brooklyn	NY	Middle Atlantic
+SUNY Downstate Health Sciences University/One Brooklyn Health System Program	--	--	--	--	--	--	--	--	--	--	Brooklyn	NY	Middle Atlantic
+SUNY Upstate Medical University Program	239-266	462-680	20%	8%	40%	9%	15%	11%	16%	8%	Syracuse	NY	Middle Atlantic
+SUTTER HEALTH/SUTTER ROSEVILLE MEDICAL CENTER PROGRAM	241-261	492-689	20%	11%	31%	9%	23%	15%	6%	0%	Roseville	CA	Pacific
+Temple University Hospital Program	241-269	493-716	28%	11%	43%	10%	27%	14%	0%	2%	Philadelphia	PA	Middle Atlantic
+Texas Tech University Health Sciences Center at Lubbock Program	216-256	!	37%	3%	12%	7%	10%	9%	16%	4%	Lubbock	TX	West South Central
+Texas Tech University HSC El Paso Program	226-259	405-673	20%	11%	59%	7%	31%	23%	15%	0%	El Paso	TX	West South Central
+The MetroHealth System/Case Western Reserve University Program	222-260	425-725	--	--	100%	9%	40%	38%	4%	3%	Cleveland	OH	East North Central
+The Neurology Group Program	--	--	--	--	--	--	--	--	--	--	Rancho Cucamonga	CA	Pacific
+TidalHealth Program	--	--	--	--	--	--	--	--	--	--	Salisbury	MD	South Atlantic
+TMC Health Medical Education Program, Inc. (THMEP) Program	228-248	427-589	40%	15%	50%	16%	19%	54%	6%	0%	Tucson	AZ	Mountain
+Tower Health Program	227-263	453-621	15%	10%	73%	8%	33%	18%	3%	8%	West Reading	PA	Middle Atlantic
+Trinity Health Grand Rapids Program	228-265	446-688	31%	8%	58%	7%	23%	15%	5%	5%	Grand Rapids	MI	East North Central
+Tufts Medical Center Program	237-271	525-692	26%	7%	64%	9%	17%	14%	4%	6%	Boston	MA	New England
+Tulane University Program	227-259	486-675	45%	9%	85%	10%	28%	17%	7%	3%	New Orleans	LA	West South Central
+UCLA David Geffen School of Medicine/UCLA Medical Center Program	244-273	!	46%	1%	31%	10%	24%	2%	0%	0%	Los Angeles	CA	Pacific
+UMass Chan Medical School Program	--	--	--	--	--	--	--	--	--	--	Worcester	MA	New England
+Univ of North Dakota School of Medicine and Health Sciences Program	233-263	478-707	10%	28%	100%	27%	49%	39%	28%	0%	Fargo	ND	West North Central
+University at Buffalo Program	234-266	473-662	17%	8%	53%	6%	26%	14%	1%	4%	Buffalo	NY	Middle Atlantic
+University of Alabama Hospital (Birmingham) Program	236-267	493-658	44%	8%	79%	11%	37%	15%	5%	4%	Birmingham	AL	East South Central
+University of Arizona College of Medicine-Phoenix Program	228-263	446-702	55%	13%	38%	16%	32%	15%	2%	3%	Phoenix	AZ	Mountain
+University of Arizona College of Medicine-Tucson Program	--	--	--	--	--	--	--	--	--	--	Tucson	AZ	Mountain
+University of Arkansas for Medical Sciences (UAMS) College of Medicine Program	227-262	!	25%	8%	50%	10%	25%	13%	3%	9%	Little Rock	AR	West South Central
+University of Arkansas for Medical Sciences Regional Centers Program	223-265	427-669	16%	19%	100%	19%	56%	67%	3%	10%	Fayetteville	AR	West South Central
+University of California (Irvine) Program	238-266	!	41%	16%	46%	18%	39%	10%	0%	4%	Orange	CA	Pacific
+University of California (San Diego) Medical Center Program	--	--	--	--	--	--	--	--	--	--	San Diego	CA	Pacific
+University of California (San Francisco) Program	--	--	--	--	--	--	--	--	--	--	San Francisco	CA	Pacific
+University of California Davis Health Program	236-270	456-702	67%	17%	62%	22%	46%	25%	2%	0%	Sacramento	CA	Pacific
+University of Central Florida/HCA Florida Healthcare (Greater Orlando/Osceola) Program	233-267	503-670	34%	8%	81%	7%	37%	15%	1%	3%	Kissimmee	FL	South Atlantic
+University of Chicago Program	235-266	454-665	55%	4%	60%	13%	28%	18%	3%	0%	Chicago	IL	East North Central
+University of Cincinnati Medical Center/College of Medicine Program	237-269	!	46%	8%	62%	11%	32%	4%	1%	0%	Cincinnati	OH	East North Central
+University of Colorado Program	--	--	--	--	--	--	--	--	--	--	Aurora	CO	Mountain
+University of Connecticut Program	232-267	!	29%	3%	54%	8%	10%	7%	4%	10%	Hartford	CT	New England
+University of Florida College of Medicine Jacksonville Program	227-262	500-635	43%	3%	22%	10%	10%	23%	9%	2%	Jacksonville	FL	South Atlantic
+University of Florida Program	239-271	487-715	51%	8%	55%	13%	36%	17%	3%	2%	Gainesville	FL	South Atlantic
+University of Hawaii John A Burns School of Medicine Program	--	--	--	--	--	--	--	--	--	--	Honolulu	HI	Pacific
+University of Illinois College of Medicine at Chicago Program	--	--	--	--	--	--	--	--	--	--	Chicago	IL	East North Central
+University of Illinois College of Medicine at Peoria Program	240-265	467-673	11%	4%	31%	4%	13%	8%	2%	2%	Peoria	IL	East North Central
+University of Iowa Health Care Medical Center Program	232-269	534-684	54%	20%	100%	23%	67%	19%	2%	9%	Iowa City	IA	West North Central
+University of Kansas School of Medicine Program	241-269	474-709	30%	10%	88%	12%	46%	21%	2%	4%	Kansas City	KS	West North Central
+University of Kentucky College of Medicine Program	228-267	!	22%	5%	84%	8%	26%	7%	1%	7%	Lexington	KY	East South Central
+University of Louisville School of Medicine Program	227-262	450-658	27%	11%	63%	12%	33%	21%	6%	8%	Louisville	KY	East South Central
+University of Maryland Program	242-269	493-743	31%	15%	100%	16%	33%	13%	2%	2%	Baltimore	MD	South Atlantic
+University of Miami/Jackson Health System Program	230-268	!	31%	5%	43%	8%	23%	5%	5%	5%	Miami	FL	South Atlantic
+University of Michigan Health - Sparrow/Michigan State University Program	229-268	442-670	51%	5%	63%	9%	12%	25%	2%	6%	East Lansing	MI	East North Central
+University of Michigan Program	235-273	!	61%	5%	29%	15%	26%	2%	3%	5%	Ann Arbor	MI	East North Central
+University of Minnesota Program	237-269	501-709	42%	4%	100%	8%	26%	10%	2%	3%	Minneapolis	MN	West North Central
+University of Mississippi Medical Center Program	--	--	--	--	--	--	--	--	--	--	Jackson	MS	East South Central
+University of Missouri-Columbia Program	240-269	465-674	18%	7%	36%	8%	26%	11%	3%	6%	Columbia	MO	West North Central
+University of Missouri-Kansas City School of Medicine Program	231-263	!	36%	4%	45%	6%	17%	10%	4%	5%	Kansas City	MO	West North Central
+University of Nebraska Medical Center College of Medicine Program	232-268	!	38%	2%	100%	9%	20%	12%	5%	8%	Omaha	NE	West North Central
+University of New Mexico School of Medicine Program	228-265	452-662	39%	12%	67%	14%	41%	30%	3%	2%	Albuquerque	NM	Mountain
+University of North Carolina Hospitals Program	231-269	490-695	48%	2%	71%	9%	16%	13%	2%	1%	Chapel Hill	NC	South Atlantic
+University of Oklahoma Health Sciences Center Program	--	--	--	--	--	--	--	--	--	--	Oklahoma City	OK	West South Central
+University of Pennsylvania Health System Program	252-273	!	28%	8%	33%	10%	22%	4%	1%	2%	Philadelphia	PA	Middle Atlantic
+University of Puerto Rico Program	--	--	--	--	--	--	--	--	--	--	San Juan	PR	South Atlantic
+University of Rochester Medical Center Program	245-272	!	62%	12%	45%	13%	33%	6%	0%	1%	Rochester	NY	Middle Atlantic
+University of South Dakota School of Medicine Program	230-266	430-710	29%	7%	100%	8%	34%	22%	3%	4%	Sioux Falls	SD	West North Central
+University of South Florida Morsani Program	231-267	459-685	52%	6%	84%	11%	40%	20%	7%	1%	Tampa	FL	South Atlantic
+University of Southern California/Los Angeles General Medical Center (USC/LA General) Program	239-273	!	31%	11%	47%	10%	30%	8%	2%	1%	Los Angeles	CA	Pacific
+University of Tennessee College of Medicine Program	234-267	490-670	32%	10%	50%	14%	39%	34%	2%	9%	Memphis	TN	East South Central
+University of Tennessee College of Medicine-Chattanooga Program	--	--	--	--	--	--	--	--	--	--	Chattanooga	TN	East South Central
+University of Tennessee Medical Center at Knoxville Program	234-260	507-679	19%	15%	39%	15%	36%	31%	11%	3%	Knoxville	TN	East South Central
+University of Texas at Austin Dell Medical School/Ascension Seton Medical Center Program	--	--	--	--	--	--	--	--	--	--	Austin	TX	West South Central
+University of Texas at Austin Dell Medical School/Dell Seton Medical Center Program	--	--	--	--	--	--	--	--	--	--	Austin	TX	West South Central
+University of Texas Health Science Center at Houston Program	237-267	515-685	41%	9%	71%	9%	37%	18%	5%	5%	Houston	TX	West South Central
+University of Texas Health Science Center at Tyler Program	220-251	!	27%	8%	19%	12%	22%	16%	14%	9%	Tyler	TX	West South Central
+University of Texas Health Science Center San Antonio Joe and Teresa Lozano Long School of Medicine Program	--	--	--	--	--	--	--	--	--	--	San Antonio	TX	West South Central
+University of Texas Medical Branch Hospitals Program	--	--	--	--	--	--	--	--	--	--	Galveston	TX	West South Central
+University of Texas Rio Grande Valley Program	238-267	!	2%	4%	11%	4%	6%	6%	1%	5%	Harlingen	TX	West South Central
+University of Texas Southwestern Medical Center Program	--	--	--	--	--	--	--	--	--	--	Dallas	TX	West South Central
+University of Toledo Program	238-269	490-667	20%	14%	65%	14%	34%	21%	2%	12%	Toledo	OH	East North Central
+University of Utah Health Program	234-267	525-675	70%	9%	67%	16%	35%	23%	6%	3%	Salt Lake City	UT	Mountain
+University of Vermont Medical Center Program	237-270	454-783	63%	9%	100%	12%	27%	10%	3%	2%	Burlington	VT	New England
+University of Virginia Medical Center Program	241-273	!	48%	6%	50%	10%	21%	4%	2%	1%	Charlottesville	VA	South Atlantic
+University of Washington Program	239-273	457-755	52%	15%	78%	20%	35%	13%	0%	1%	Seattle	WA	Pacific
+University of Wisconsin Hospitals and Clinics Program	233-269	445-710	63%	8%	89%	13%	32%	13%	4%	3%	Madison	WI	East North Central
+UPMC Medical Education (Erie) Program	224-261	484-663	36%	15%	38%	14%	22%	30%	0%	0%	Erie	PA	Middle Atlantic
+UPMC Medical Education (Pittsburgh) Program	234-271	!	46%	1%	31%	6%	16%	4%	0%	4%	Pittsburgh	PA	Middle Atlantic
+USA Health Program	225-263	!	22%	11%	78%	10%	74%	14%	1%	4%	Mobile	AL	East South Central
+Vanderbilt University Medical Center Program	238-271	!	59%	1%	33%	15%	28%	3%	1%	1%	Nashville	TN	East South Central
+Virginia Commonwealth University Health System Program	235-268	459-681	43%	14%	58%	16%	23%	30%	3%	2%	Richmond	VA	South Atlantic
+Wake Forest University Baptist Medical Center Program	239-267	513-713	58%	9%	74%	15%	25%	18%	0%	0%	Winston-Salem	NC	South Atlantic
+Washington University/B-JH/SLCH Consortium Program	235-271	--	70%	13%	32%	20%	41%	0%	0%	1%	St Louis	MO	West North Central
+West Virginia University Program	229-264	441-669	24%	13%	93%	13%	30%	32%	11%	7%	Morgantown	WV	South Atlantic
+Westchester Medical Center Program	227-265	!	21%	2%	27%	6%	13%	3%	5%	7%	Valhalla	NY	Middle Atlantic
+Wright State University Boonshoft School of Medicine Program	229-264	434-666	61%	17%	95%	13%	49%	11%	0%	0%	Dayton	OH	East North Central
+Yale-New Haven Medical Center Program	242-273	!	45%	8%	87%	20%	35%	4%	3%	8%	New Haven	CT	New England
+Zucker School of Medicine at Hofstra/Northwell at Staten Island University Hospital Program	228-258	451-630	55%	13%	59%	13%	29%	29%	9%	9%	Staten Island	NY	Middle Atlantic
+Zucker School of Medicine at Hofstra/Northwell at Vassar Brothers Medical Center Program	227-257	440-629	28%	19%	79%	16%	71%	25%	4%	0%	Poughkeepsie	NY	Middle Atlantic
+Zucker School of Medicine at Hofstra/Northwell Program	240-266	534-805	48%	21%	63%	17%	54%	17%	1%	3%	Manhasset	NY	Middle Atlantic
