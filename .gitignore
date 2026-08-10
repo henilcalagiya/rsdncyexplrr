@@ -2,7 +2,8 @@
 data/
 
 # generated locally: python3 load_programs.py && python3 load_links.py && python3 load_details.py
-residency_explorer.db
+# (the copy in web/ IS committed — Vercel serves from it)
+/residency_explorer.db
 
 # next.js
 web/node_modules/

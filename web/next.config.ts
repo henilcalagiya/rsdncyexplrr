@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // bundle the SQLite db into every serverless function on Vercel
+  outputFileTracingIncludes: {
+    "/**": ["./residency_explorer.db"],
+    "/": ["./residency_explorer.db"],
+  },
 };
 
 export default nextConfig;

@@ -137,3 +137,9 @@ print(cur.execute(
     "SELECT name, program_director, eras_applicants_2026, interview_rate_2026, positions_filled_2026 FROM program_details"
 ).fetchall())
 con.close()
+
+# refresh the committed copy that Vercel deploys
+import shutil
+
+shutil.copyfile(DB, f"{BASE}/web/residency_explorer.db")
+print("copied db to web/residency_explorer.db")

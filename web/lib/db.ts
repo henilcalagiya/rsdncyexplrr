@@ -1,8 +1,14 @@
 import Database from "better-sqlite3";
+import fs from "fs";
 import path from "path";
 
-// residency_explorer.db lives one level above the web/ app folder
-const dbPath = path.join(process.cwd(), "..", "residency_explorer.db");
+// deployed (Vercel): the db is bundled inside web/; local dev: the canonical
+// copy lives one level above the web/ app folder
+const candidates = [
+  path.join(process.cwd(), "residency_explorer.db"),
+  path.join(process.cwd(), "..", "residency_explorer.db"),
+];
+const dbPath = candidates.find((p) => fs.existsSync(p)) ?? candidates[0];
 
 let db: Database.Database | null = null;
 
