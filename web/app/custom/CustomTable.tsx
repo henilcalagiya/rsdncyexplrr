@@ -194,23 +194,25 @@ export default function CustomTable({ rows }: { rows: CustomRow[] }) {
   }
 
   return (
-    <div className="flex w-full items-start">
-      <aside className="sticky top-14 h-[calc(100vh-3.5rem)] w-60 shrink-0 overflow-y-auto border-r border-gray-200 bg-gray-50 p-4">
-        <div className="flex items-center justify-between">
-          <h2 className="text-sm font-semibold">Filters</h2>
+    <div className="flex w-full items-start gap-6 px-8 py-6">
+      <aside className="sticky top-[68px] max-h-[calc(100vh-84px)] w-64 shrink-0 overflow-y-auto rounded-xl border border-gray-200 bg-white p-4">
+        <div className="flex items-center justify-between border-b border-gray-100 pb-2.5">
+          <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-700">
+            Filters
+          </h2>
           {hasFilters && (
             <button
               onClick={clearFilters}
-              className="text-xs text-blue-600 hover:underline"
+              className="text-xs font-medium text-red-500 hover:text-red-600"
             >
-              Clear all
+              Clear filters
             </button>
           )}
         </div>
 
         <div className="mt-4 space-y-4 text-sm">
           <div>
-            <span className="mb-1 block text-xs font-medium text-gray-600">
+            <span className="mb-1 block text-[11px] font-semibold uppercase tracking-wide text-gray-400">
               Search
             </span>
             <input
@@ -251,7 +253,7 @@ export default function CustomTable({ rows }: { rows: CustomRow[] }) {
           />
 
           <div>
-            <span className="mb-1 block text-xs font-medium text-gray-600">
+            <span className="mb-1 block text-[11px] font-semibold uppercase tracking-wide text-gray-400">
               Min interview rate %
             </span>
             <input
@@ -289,27 +291,35 @@ export default function CustomTable({ rows }: { rows: CustomRow[] }) {
             Has Step 2 CK range
           </label>
 
-          <p className="border-t border-gray-200 pt-3 text-xs text-gray-500">
+          <p className="border-t border-gray-100 pt-3 text-xs text-gray-400">
             Showing {filtered.length} of {rows.length} programs
           </p>
         </div>
       </aside>
 
-      <section className="min-w-0 flex-1 px-6 py-5">
+      <section className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <h1 className="text-xl font-semibold">Key Data View</h1>
+          <div>
+            <h1 className="text-2xl font-semibold text-gray-900">
+              Key Data View
+            </h1>
+            <p className="mt-0.5 text-sm text-gray-500">
+              Contacts, visas, signal &amp; interview data · {rows.length}{" "}
+              programs
+            </p>
+          </div>
           <button
             onClick={exportCsv}
-            className="rounded border border-gray-300 bg-white px-3 py-1.5 text-sm hover:bg-gray-100"
+            className="rounded-md border border-gray-200 bg-white px-3 py-1.5 text-[13px] font-medium text-gray-700 hover:border-gray-300 hover:text-gray-900"
           >
             ⬇ Export CSV
           </button>
         </div>
 
-        <div className="mt-3 max-h-[calc(100vh-9rem)] overflow-auto rounded-lg border border-gray-200">
-        <table className="w-full text-left text-sm">
-          <thead className="sticky top-0 z-10 bg-gray-50">
-            <tr className="border-b border-gray-300">
+        <div className="mt-4 max-h-[calc(100vh-176px)] overflow-auto rounded-xl border border-gray-200 bg-white">
+        <table className="w-full text-left text-[13px]">
+          <thead className="sticky top-0 z-10 bg-gray-50 text-gray-600">
+            <tr className="border-b border-gray-200">
               {COLUMNS.map((c) => (
                 <th key={c} className="whitespace-nowrap px-3 py-2">
                   {c}
@@ -321,7 +331,7 @@ export default function CustomTable({ rows }: { rows: CustomRow[] }) {
             {filtered.map((r) => (
               <tr
                 key={r.program_id}
-                className="border-b border-gray-100 align-top even:bg-gray-50/50"
+                className="border-b border-gray-100 align-top hover:bg-gray-50"
               >
                 <td className="min-w-56 px-3 py-2 font-medium">
                   <Link

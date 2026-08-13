@@ -35,7 +35,7 @@ export default function MultiSelect({
 
   return (
     <div className="relative" ref={ref}>
-      <span className="mb-1 block text-xs font-medium text-gray-600">
+      <span className="mb-1 block text-[11px] font-semibold uppercase tracking-wide text-gray-400">
         {label}
       </span>
       <button
@@ -47,12 +47,12 @@ export default function MultiSelect({
         {selected.map((v) => (
           <span
             key={v}
-            className="flex items-center gap-1 rounded bg-blue-100 px-1.5 py-0.5 text-xs text-blue-800"
+            className="flex items-center gap-1 rounded bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-700"
           >
             {v}
             <span
               role="button"
-              className="font-bold hover:text-blue-950"
+              className="font-bold hover:text-gray-950"
               onClick={(e) => {
                 e.stopPropagation();
                 toggle(v);
