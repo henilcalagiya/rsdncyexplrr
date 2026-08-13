@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { CustomRow } from "@/lib/db";
 import MultiSelect from "../MultiSelect";
+import FilterSidebar from "../FilterSidebar";
 
 const VISA_OPTIONS = ["J-1", "H1-B", "F-1 OPT"] as const;
 
@@ -195,22 +196,7 @@ export default function CustomTable({ rows }: { rows: CustomRow[] }) {
 
   return (
     <div className="flex w-full items-start gap-6 px-8 py-6">
-      <aside className="sticky top-[68px] max-h-[calc(100vh-84px)] w-64 shrink-0 overflow-y-auto rounded-xl border border-gray-200 bg-white p-4">
-        <div className="flex items-center justify-between border-b border-gray-100 pb-2.5">
-          <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-700">
-            Filters
-          </h2>
-          {hasFilters && (
-            <button
-              onClick={clearFilters}
-              className="text-xs font-medium text-red-500 hover:text-red-600"
-            >
-              Clear filters
-            </button>
-          )}
-        </div>
-
-        <div className="mt-4 space-y-4 text-sm">
+      <FilterSidebar onClear={hasFilters ? clearFilters : undefined}>
           <div>
             <span className="mb-1 block text-[11px] font-semibold uppercase tracking-wide text-gray-400">
               Search
@@ -294,8 +280,7 @@ export default function CustomTable({ rows }: { rows: CustomRow[] }) {
           <p className="border-t border-gray-100 pt-3 text-xs text-gray-400">
             Showing {filtered.length} of {rows.length} programs
           </p>
-        </div>
-      </aside>
+      </FilterSidebar>
 
       <section className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center justify-between gap-2">
