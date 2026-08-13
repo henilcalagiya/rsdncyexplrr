@@ -171,7 +171,7 @@ export default function ProgramTable({ programs }: { programs: ProgramRaw[] }) {
                       className="ml-1 text-xs text-gray-400"
                       href={`${BASE_URL}${p.program_url}`}
                       target="_blank"
-                      title="View on Residency Explorer"
+                      title="View original source page"
                     >
                       ↗
                     </a>

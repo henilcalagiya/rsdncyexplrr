@@ -78,7 +78,7 @@ export default async function ProgramPage({
               href={`${BASE_URL}/Program/GetByIdWithMedicalSpecialty/${detail.external_id}`}
               target="_blank"
             >
-              view on Residency Explorer
+              view original source page
             </a>
           </>
         )}

@@ -22,13 +22,13 @@ export default function Navbar({ programCount }: { programCount: number }) {
       <nav className="flex h-14 w-full items-center gap-4 px-8">
         <Link href="/" className="flex items-center gap-2.5">
           <span className="flex h-7 w-7 items-center justify-center rounded-md bg-blue-600 text-sm font-bold text-white">
-            R
+            N
           </span>
           <span className="text-[15px] font-semibold tracking-tight text-gray-900">
-            Residency Explorer
+            Neurology Programs
           </span>
           <span className="hidden rounded-full bg-gray-100 px-2.5 py-0.5 text-[11px] font-medium text-gray-500 sm:inline-block">
-            Neurology · {programCount} programs
+            {programCount} programs
           </span>
         </Link>
 

@@ -4,8 +4,8 @@ import Navbar from "./Navbar";
 import { getCounts } from "@/lib/db";
 
 export const metadata: Metadata = {
-  title: "Residency Explorer — Neurology",
-  description: "Local mirror of AAMC Residency Explorer neurology program data",
+  title: "Neurology Programs",
+  description: "Neurology residency program data browser",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

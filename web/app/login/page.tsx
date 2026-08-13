@@ -14,7 +14,7 @@ export default async function LoginPage({
         action="/api/login"
         className="w-full max-w-sm rounded-xl border border-gray-200 bg-white p-8 shadow-sm"
       >
-        <h1 className="text-xl font-bold">Residency Explorer — Local Data</h1>
+        <h1 className="text-xl font-bold">Neurology Programs</h1>
         <p className="mt-1 text-sm text-gray-500">
           Enter the password to continue.
         </p>
