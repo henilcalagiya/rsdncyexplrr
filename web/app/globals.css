@@ -17,3 +17,11 @@ body {
   color: var(--foreground);
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
+
+/* everything clickable shows a pointer */
+button,
+[role="button"],
+input[type="checkbox"],
+label:has(> input[type="checkbox"]) {
+  cursor: pointer;
+}
