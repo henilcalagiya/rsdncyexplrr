@@ -1,0 +1,968 @@
+{
+  "programId": 2296,
+  "externalId": "e1a1e73d-1674-c1dc-1106-1767c7b1d2c2",
+  "name": "MedStar Health Georgetown University Program",
+  "specialtyId": 49,
+  "sourceFile": "MedStar Health Georgetown University Program [2296].html",
+  "sourceUrl": "https://www.residencyexplorer.org/Program/GetByIdWithMedicalSpecialty/e1a1e73d-1674-c1dc-1106-1767c7b1d2c2",
+  "contact": {
+    "phone": "(202) 444-7235",
+    "website": "http://www.georgetownuniversityhospital.org",
+    "address": "Georgetown University Hospital Department of Neurology 3800 Reservoir Road, NW (7 PHC) Washington, DC 20007",
+    "email": "laxman.bahroo@gunet.georgetown.edu",
+    "region": "South Atlantic",
+    "acgmeProgramCode": "1801021022",
+    "programDirector": "Laxman Bahroo",
+    "programCoordinator": "Amy Burke",
+    "programCoordinatorPhone": "(202) 444-0809"
+  },
+  "quickFacts": {
+    "institutionalSetting": "University Based",
+    "accreditationStatus": "Continued Accreditation",
+    "accreditationEffectiveDate": "1/29/2026",
+    "accreditedTrainingLengthYears": 4,
+    "priorYearActiveResidents": {
+      "total": 31,
+      "year1": 8,
+      "year2": 8,
+      "year3": 8
+    }
+  },
+  "applicationDetails": {
+    "applicationService": "ERAS",
+    "interviewFormat": "Virtual (e.g., using Zoom, Teams, WebEx)",
+    "priorGmeRequired": "No",
+    "priorGmeYearsRequired": null,
+    "visaJ1SponsorshipEcfmg": "Yes",
+    "visaH1B": "No",
+    "visaF1Opt": "No",
+    "totalLettersOfRecommendation": "At least 3"
+  },
+  "matchOutcomes2026": {
+    "categorical": {
+      "positionsOffered": 9,
+      "positionsFilled": 8
+    }
+  },
+  "selectivity2026": {
+    "erasApplicants": 973,
+    "specialtyAvgErasApplicants": 689,
+    "pctApplicantsInvitedToInterview": 12.2,
+    "specialtyAvgPctInvited": 13.2,
+    "applicantsInvitedToInterviewCount": 119
+  },
+  "applicants": {
+    "n_APPS2022": 884,
+    "n_APPS2023": 958,
+    "n_APPS2024": 980,
+    "n_APPS2025": 1009,
+    "n_APPS2026": 973
+  },
+  "salaryTable": {
+    "rows": [
+      {
+        "year": "Year 1",
+        "salary": "-",
+        "salaryAlignmentStatus": 0,
+        "vacationDays": "21",
+        "vacationDaysAlignmentStatus": 0,
+        "sickDays": "Negotiable",
+        "sickDaysAlignmentStatus": 0
+      },
+      {
+        "year": "Year 2",
+        "salary": "-",
+        "salaryAlignmentStatus": 0,
+        "vacationDays": "21",
+        "vacationDaysAlignmentStatus": 0,
+        "sickDays": "Negotiable",
+        "sickDaysAlignmentStatus": 0
+      },
+      {
+        "year": "Year 3",
+        "salary": "-",
+        "salaryAlignmentStatus": 0,
+        "vacationDays": "21",
+        "vacationDaysAlignmentStatus": 0,
+        "sickDays": "Negotiable",
+        "sickDaysAlignmentStatus": 0
+      },
+      {
+        "year": "Year 4",
+        "salary": "-",
+        "salaryAlignmentStatus": 0,
+        "vacationDays": "21",
+        "vacationDaysAlignmentStatus": 0,
+        "sickDays": "Negotiable",
+        "sickDaysAlignmentStatus": 0
+      }
+    ]
+  },
+  "chartSet": {
+    "residentCareerPlans": {
+      "series": {
+        "Continue training in another \nresidency or fellowship program": 62,
+        "Other career \nintentions or plans": 34,
+        "Practice Full-time": 5,
+        "Obtain full- or part-time \nacademic position": 0
+      },
+      "parameters": null
+    },
+    "topTenSchools": {
+      "series": {
+        "Georgetown University School of Medicine": 20,
+        "Edward Via College of Osteopathic Medicine": 10,
+        "George Washington University School of Medicine & Health Sciences": 7,
+        "Eastern Virginia Medical School at Old Dominion University": 7,
+        "More than 1 school \n has this rank*": 3
+      },
+      "parameters": null
+    },
+    "race": {
+      "series": {
+        "White": 50,
+        "Asian": 37,
+        "Black or African American": 7,
+        "Hispanic, Latino, or of Spanish Origin": 3,
+        "Middle Eastern or North African": 3,
+        "Other": 3,
+        "American Indian or Alaska Native": 0,
+        "Native Hawaiian or Other Pacific Islander": 0,
+        "Did Not Report": 0
+      },
+      "parameters": null
+    },
+    "specialtyRace": {
+      "series": {
+        "White": 41,
+        "Asian": 37,
+        "Black or African American": 6,
+        "Hispanic, Latino, or of Spanish Origin": 12,
+        "Middle Eastern or North African": 4,
+        "Other": 3,
+        "American Indian or Alaska Native": 0,
+        "Native Hawaiian or Other Pacific Islander": 0,
+        "Did Not Report": 0
+      },
+      "parameters": null
+    },
+    "studentType": {
+      "series": {
+        "US MD Graduates": 57,
+        "US DO Graduates": 27,
+        "Non-US IMG": 17,
+        "US-IMG": 0
+      },
+      "parameters": null
+    },
+    "specialtyStudentType": {
+      "series": {
+        "US MD Graduates": 46,
+        "US DO Graduates": 19,
+        "Non-US IMG": 23,
+        "US-IMG": 12
+      },
+      "parameters": null
+    },
+    "sex": {
+      "series": {
+        "Men": 60,
+        "Women": 40,
+        "Another Gender": 0,
+        "Did Not Report": 0
+      },
+      "parameters": null
+    },
+    "specialtySex": {
+      "series": {
+        "Men": 49,
+        "Women": 50,
+        "Another Gender": 0,
+        "Did Not Report": 1
+      },
+      "parameters": null
+    },
+    "signal": {
+      "series": {
+        "Sent": 52,
+        "Did Not Send": 0
+      },
+      "parameters": {
+        "countSent": 227,
+        "countDidNotSend": 746
+      }
+    },
+    "signalCompositionOfApplicants": {
+      "series": {
+        "Sent": 23,
+        "Did Not Send": 77
+      },
+      "parameters": null
+    },
+    "signalCompositionOfInvitedToInterview": {
+      "series": {
+        "Sent": 99,
+        "Did Not Send": 1
+      },
+      "parameters": null
+    },
+    "geographicPreference": {
+      "series": {
+        "Aligned": null,
+        "Not Aligned": null,
+        "No Preference": null
+      },
+      "parameters": {
+        "countAligned": 0,
+        "countNotAligned": 0,
+        "countNoPreference": 0
+      }
+    },
+    "geographicPreferenceApplicants": {
+      "series": {
+        "Aligned": null,
+        "Not Aligned": null,
+        "No Preference": null
+      },
+      "parameters": null
+    },
+    "geographicPreferenceInvitedToInterview": {
+      "series": {
+        "Aligned": null,
+        "Not Aligned": null,
+        "No Preference": null
+      },
+      "parameters": null
+    },
+    "homeStateProgram": {
+      "series": {
+        "In-State": 45,
+        "Out-of-State": 11
+      },
+      "parameters": {
+        "countAligned": 42,
+        "countNotAligned": 931
+      }
+    },
+    "homeStateProgramApplicants": {
+      "series": {
+        "In-State": 4,
+        "Out-of-State": 96
+      },
+      "parameters": null
+    },
+    "homeStateProgramInvitedToInterview": {
+      "series": {
+        "In-State": 16,
+        "Out-of-State": 84
+      },
+      "parameters": null
+    },
+    "medicalSchoolStateProgram": {
+      "series": {
+        "In-State": 56,
+        "Out-of-State": 11
+      },
+      "parameters": {
+        "countAligned": 16,
+        "countNotAligned": 957
+      }
+    },
+    "medicalSchoolStateProgramApplicant": {
+      "series": {
+        "In-State": 2,
+        "Out-of-State": 98
+      },
+      "parameters": null
+    },
+    "medicalSchoolStateProgramInvitedToInterview": {
+      "series": {
+        "In-State": 8,
+        "Out-of-State": 92
+      },
+      "parameters": null
+    },
+    "usmleStep1Level1": {
+      "series": {
+        "Never Failed": 13,
+        "Ever Failed": 4
+      },
+      "parameters": {
+        "countEverFailed": 78,
+        "countNeverFailed": 889
+      }
+    },
+    "usmleStep1Level1Applicant": {
+      "series": {
+        "Never Failed": 92,
+        "Ever Failed": 8
+      },
+      "parameters": null
+    },
+    "usmleStep1Level1InvitedToInterview": {
+      "series": {
+        "Never Failed": 97,
+        "Ever Failed": 3
+      },
+      "parameters": null
+    },
+    "usmleStep2Level2": {
+      "series": {
+        "Never Failed": 13,
+        "Ever Failed": 2
+      },
+      "parameters": {
+        "countEverFailed": 44,
+        "countNeverFailed": 918
+      }
+    },
+    "usmleStep2Level2Applicant": {
+      "series": {
+        "Never Failed": 95,
+        "Ever Failed": 5
+      },
+      "parameters": null
+    },
+    "usmleStep2Level2InvitedToInterview": {
+      "series": {
+        "Never Failed": 99,
+        "Ever Failed": 1
+      },
+      "parameters": null
+    },
+    "applicantType": {
+      "series": {
+        "US MD": 22,
+        "US DO": 13,
+        "US IMG": 3,
+        "Non-US IMG": 1
+      },
+      "parameters": {
+        "countUsmd": 403,
+        "countUsdo": 180,
+        "countUsimg": 120,
+        "countFmg": 270
+      }
+    },
+    "applicantTypeApp": {
+      "series": {
+        "US MD": 41,
+        "US DO": 18,
+        "US IMG": 12,
+        "Non-US IMG": 28
+      },
+      "parameters": null
+    },
+    "applicantTypeInvitedToInterview": {
+      "series": {
+        "US MD": 74,
+        "US DO": 20,
+        "US IMG": 3,
+        "Non-US IMG": 3
+      },
+      "parameters": null
+    },
+    "step2CKScores": [
+      {
+        "series": {
+          "lower": 237,
+          "q1": 242,
+          "median": 250,
+          "q3": 259,
+          "upper": 266
+        },
+        "parameters": {
+          "applicant": "All Applicants Invited",
+          "status": 1
+        }
+      },
+      {
+        "series": {
+          "lower": 237,
+          "q1": 242,
+          "median": 249,
+          "q3": 260,
+          "upper": 267
+        },
+        "parameters": {
+          "applicant": "MD Applicants Invited",
+          "status": 1
+        }
+      },
+      {
+        "series": {
+          "lower": 233,
+          "q1": 242,
+          "median": 252,
+          "q3": 259,
+          "upper": 265
+        },
+        "parameters": {
+          "applicant": "DO Applicants Invited",
+          "status": 3
+        }
+      },
+      {
+        "series": {},
+        "parameters": {
+          "applicant": "US IMG Applicants Invited",
+          "status": 2
+        }
+      },
+      {
+        "series": {},
+        "parameters": {
+          "applicant": "Non-US IMG Applicants Invited",
+          "status": 2
+        }
+      }
+    ],
+    "level2CEScores": [
+      {
+        "series": {
+          "lower": 468,
+          "q1": 503,
+          "median": 596,
+          "q3": 642,
+          "upper": 711
+        },
+        "parameters": {
+          "applicant": "DO Applicants Invited",
+          "status": 3
+        }
+      }
+    ]
+  },
+  "alignmentTable": {
+    "groups": {
+      "1": "Program Characteristics",
+      "2": "Educational and Research Opportunities",
+      "3": "Employment Benefits",
+      "4": "Practice Environment",
+      "5": "Resident Demographics and Background, All Training Years",
+      "6": "Completed Resident Career Plans"
+    },
+    "rows": [
+      {
+        "groupId": 1,
+        "subGroup": null,
+        "name": "Accredited Training Length (years)",
+        "myProfileSelection": "-",
+        "programOffering": "4",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 1,
+        "subGroup": null,
+        "name": "Osteopathic Recognition",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 1,
+        "subGroup": null,
+        "name": "Total residents in program",
+        "myProfileSelection": "-",
+        "programOffering": "31",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 1,
+        "subGroup": null,
+        "name": "Total residents in entering cohort",
+        "myProfileSelection": "-",
+        "programOffering": "8",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 1,
+        "subGroup": null,
+        "name": "Not for Profit Employer",
+        "myProfileSelection": "-",
+        "programOffering": "-",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Special tracks",
+        "name": "Academic or clinician educator",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Special tracks",
+        "name": "Hospitalist",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Special tracks",
+        "name": "Primary care",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Special tracks",
+        "name": "Research track/fellowship",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Special tracks",
+        "name": "Rural",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Special tracks",
+        "name": "Women's health",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Special tracks",
+        "name": "Other",
+        "myProfileSelection": "-",
+        "programOffering": "-",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Academic support for USMLE Step 3/COMLEX-USA Level 3 preparation",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Alternative complementary medicine curriculum",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Debt management or financial counseling",
+        "myProfileSelection": "-",
+        "programOffering": "Yes",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Economics of health care systems curriculum",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Formal program to foster interprofessional teamwork",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Health systems leadership skills curriculum",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Hospice/home care experience",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Instruction in medical Spanish or other non-English Language",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Integrative medicine curriculum (i.e., integrating alternative/complementary medicine with conventional medicine)",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "International experience/global health",
+        "myProfileSelection": "-",
+        "programOffering": "Yes",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "MPH, MBA, PhD or other advanced degree training",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Off-campus electives",
+        "myProfileSelection": "-",
+        "programOffering": "Yes",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": "Program offerings",
+        "name": "Resident/fellow retreats",
+        "myProfileSelection": "-",
+        "programOffering": "Yes",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": null,
+        "name": "Average hours per week in Year 1 that residents/fellows are expected to attend regularly scheduled lectures/conferences",
+        "myProfileSelection": "-",
+        "programOffering": "10",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": null,
+        "name": "Research rotation",
+        "myProfileSelection": "-",
+        "programOffering": "Optional",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 2,
+        "subGroup": null,
+        "name": "Number of weeks in required research rotation",
+        "myProfileSelection": "-",
+        "programOffering": "-",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "Free parking",
+        "myProfileSelection": "-",
+        "programOffering": "Yes",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "Housing stipend",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "Moving allowance",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "Number of paid days for Family/Medical leave",
+        "myProfileSelection": "-",
+        "programOffering": "Negotiable",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "Number of unpaid days for Family/Medical leave",
+        "myProfileSelection": "-",
+        "programOffering": "Negotiable",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "On-call meal allowance",
+        "myProfileSelection": "-",
+        "programOffering": "Yes",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "On-site child care",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "Part-time/shared schedule positions",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "Placement assistance upon program completion into practice, fellowship, or academia",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "Subsidized child care",
+        "myProfileSelection": "-",
+        "programOffering": "Yes",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 3,
+        "subGroup": null,
+        "name": "Tablets or technology allowance",
+        "myProfileSelection": "-",
+        "programOffering": "No",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 4,
+        "subGroup": null,
+        "name": "Institutional setting",
+        "myProfileSelection": "",
+        "programOffering": "University Based",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 4,
+        "subGroup": null,
+        "name": "Average number of days off per week in year one",
+        "myProfileSelection": "-",
+        "programOffering": "2",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 4,
+        "subGroup": null,
+        "name": "Average hours per week in year 1 that a resident works (including all patient care activities, research, conferences, etc.)",
+        "myProfileSelection": "-",
+        "programOffering": "70",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 4,
+        "subGroup": null,
+        "name": "Maximum consecutive hours a resident is allowed to work in year 1 (excluding beeper and at home call)",
+        "myProfileSelection": "-",
+        "programOffering": "24",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 4,
+        "subGroup": null,
+        "name": "Program allows residents/fellows beyond PGY1 to moonlight",
+        "myProfileSelection": "-",
+        "programOffering": "Yes",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 4,
+        "subGroup": null,
+        "name": "Percentage of training spent by residents/fellows in Year 1 of the program in hospital outpatient clinics in all teaching hospitals used",
+        "myProfileSelection": "-",
+        "programOffering": "15%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 4,
+        "subGroup": null,
+        "name": "Percentage of training spent by residents/fellows in Year 1 of the program in ambulatory nonhospital community-based settings not attached to any hospital (e.g., physician offices, community clinics)",
+        "myProfileSelection": "-",
+        "programOffering": "Not Applicable",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are American Indian or Alaska Native",
+        "myProfileSelection": "-",
+        "programOffering": "0%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are Asian",
+        "myProfileSelection": "-",
+        "programOffering": "37%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are Black or African American",
+        "myProfileSelection": "-",
+        "programOffering": "7%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are Hispanic or Latino",
+        "myProfileSelection": "-",
+        "programOffering": "3%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are Middle Eastern or North African",
+        "myProfileSelection": "-",
+        "programOffering": "3%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are Native Hawaiian or Pacific Islander",
+        "myProfileSelection": "-",
+        "programOffering": "0%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are White",
+        "myProfileSelection": "-",
+        "programOffering": "50%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are Some Other Race or Ethnicity",
+        "myProfileSelection": "-",
+        "programOffering": "3%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are Men",
+        "myProfileSelection": "-",
+        "programOffering": "60%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are Women",
+        "myProfileSelection": "-",
+        "programOffering": "40%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are of Another Gender",
+        "myProfileSelection": "-",
+        "programOffering": "0%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are US MD graduates",
+        "myProfileSelection": "-",
+        "programOffering": "57%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are US DO graduates",
+        "myProfileSelection": "-",
+        "programOffering": "27%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are US-IMG",
+        "myProfileSelection": "-",
+        "programOffering": "0%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Percentage of current residents who are Non-US IMG",
+        "myProfileSelection": "-",
+        "programOffering": "17%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 5,
+        "subGroup": null,
+        "name": "Number of current residents who are graduates of a joint MD-PhD program",
+        "myProfileSelection": "-",
+        "programOffering": "3",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 6,
+        "subGroup": null,
+        "name": "Percentage of program graduates who continue training in another residency or fellowship program",
+        "myProfileSelection": "-",
+        "programOffering": "62%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 6,
+        "subGroup": null,
+        "name": "Percentage of program graduates who practice full-time",
+        "myProfileSelection": "-",
+        "programOffering": "5%",
+        "alignmentStatus": 0
+      },
+      {
+        "groupId": 6,
+        "subGroup": null,
+        "name": "Percentage of program graduates who obtain full-or part-time academic postiions",
+        "myProfileSelection": "-",
+        "programOffering": "0%",
+        "alignmentStatus": 0
+      }
+    ]
+  }
+}
