@@ -17,7 +17,7 @@ export default function FilterSidebar({
       <button
         onClick={() => setCollapsed(false)}
         title="Show filters"
-        className="sticky top-[68px] flex shrink-0 flex-col items-center gap-2 rounded-xl border border-gray-200 bg-white px-2.5 py-3.5 text-gray-500 hover:border-gray-300 hover:text-gray-900"
+        className="sticky top-[68px] flex shrink-0 flex-col items-center gap-2 py-1 pr-3 text-gray-400 hover:text-gray-900"
       >
         <span aria-hidden>☰</span>
         <span className="text-[11px] font-semibold uppercase tracking-wide [writing-mode:vertical-rl]">
@@ -28,8 +28,8 @@ export default function FilterSidebar({
   }
 
   return (
-    <aside className="sticky top-[68px] max-h-[calc(100vh-84px)] w-64 shrink-0 overflow-y-auto rounded-xl border border-gray-200 bg-white p-4">
-      <div className="flex items-center gap-3 border-b border-gray-100 pb-2.5">
+    <aside className="sticky top-[68px] max-h-[calc(100vh-84px)] w-64 shrink-0 overflow-y-auto border-r border-gray-200 pr-5">
+      <div className="flex items-center gap-3 border-b border-gray-200 pb-2.5">
         <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-700">
           Filters
         </h2>
