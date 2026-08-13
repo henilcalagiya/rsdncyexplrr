@@ -8,13 +8,11 @@ export default function MultiSelect({
   options,
   selected,
   onChange,
-  width = "w-56",
 }: {
   label: string;
   options: string[];
   selected: string[];
   onChange: (next: string[]) => void;
-  width?: string;
 }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -36,12 +34,14 @@ export default function MultiSelect({
   }
 
   return (
-    <div className="relative flex items-center gap-1.5" ref={ref}>
-      <span className="text-gray-500">{label}</span>
+    <div className="relative" ref={ref}>
+      <span className="mb-1 block text-xs font-medium text-gray-600">
+        {label}
+      </span>
       <button
         type="button"
         onClick={() => setOpen((o) => !o)}
-        className={`flex min-h-[34px] ${width} flex-wrap items-center gap-1 rounded border border-gray-300 bg-white px-2 py-1 text-left`}
+        className="flex min-h-[34px] w-full flex-wrap items-center gap-1 rounded border border-gray-300 bg-white px-2 py-1 text-left"
       >
         {selected.length === 0 && <span className="text-gray-400">All</span>}
         {selected.map((v) => (
@@ -66,7 +66,7 @@ export default function MultiSelect({
       </button>
 
       {open && (
-        <div className="absolute left-0 top-full z-30 mt-1 max-h-64 w-64 overflow-auto rounded border border-gray-300 bg-white shadow-lg">
+        <div className="absolute left-0 right-0 top-full z-30 mt-1 max-h-64 overflow-auto rounded border border-gray-300 bg-white shadow-lg">
           {selected.length > 0 && (
             <button
               type="button"

@@ -194,107 +194,119 @@ export default function CustomTable({ rows }: { rows: CustomRow[] }) {
   }
 
   return (
-    <div>
-      <div className="mt-5 flex flex-wrap items-center gap-3 rounded-lg border border-gray-200 bg-gray-50 p-3 text-sm">
-        <input
-          type="text"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search program, city, or director…"
-          className="w-64 rounded border border-gray-300 bg-white px-3 py-1.5"
-        />
+    <div className="flex w-full items-start">
+      <aside className="sticky top-14 h-[calc(100vh-3.5rem)] w-60 shrink-0 overflow-y-auto border-r border-gray-200 bg-gray-50 p-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-sm font-semibold">Filters</h2>
+          {hasFilters && (
+            <button
+              onClick={clearFilters}
+              className="text-xs text-blue-600 hover:underline"
+            >
+              Clear all
+            </button>
+          )}
+        </div>
 
-        <MultiSelect
-          label="State"
-          options={states}
-          selected={selStates}
-          onChange={setSelStates}
-          width="w-44"
-        />
+        <div className="mt-4 space-y-4 text-sm">
+          <div>
+            <span className="mb-1 block text-xs font-medium text-gray-600">
+              Search
+            </span>
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Program, city, or director…"
+              className="w-full rounded border border-gray-300 bg-white px-3 py-1.5"
+            />
+          </div>
 
-        <MultiSelect
-          label="Region"
-          options={regions}
-          selected={selRegions}
-          onChange={setSelRegions}
-          width="w-56"
-        />
-
-        <MultiSelect
-          label="Interview"
-          options={formats}
-          selected={selFormats}
-          onChange={setSelFormats}
-          width="w-56"
-        />
-
-        <MultiSelect
-          label="Visas"
-          options={[...VISA_OPTIONS]}
-          selected={selVisas}
-          onChange={setSelVisas}
-          width="w-44"
-        />
-
-        <label className="flex items-center gap-1.5">
-          <input
-            type="checkbox"
-            checked={onlyOsteopathic}
-            onChange={(e) => setOnlyOsteopathic(e.target.checked)}
+          <MultiSelect
+            label="State"
+            options={states}
+            selected={selStates}
+            onChange={setSelStates}
           />
-          Osteopathic Recognized
-        </label>
 
-        <label className="flex items-center gap-1.5">
-          <input
-            type="checkbox"
-            checked={onlyResearchTrack}
-            onChange={(e) => setOnlyResearchTrack(e.target.checked)}
+          <MultiSelect
+            label="Region"
+            options={regions}
+            selected={selRegions}
+            onChange={setSelRegions}
           />
-          Research track
-        </label>
 
-        <label className="flex items-center gap-1.5">
-          <span className="text-gray-500">Min rate %</span>
-          <input
-            type="number"
-            value={minRate}
-            onChange={(e) => setMinRate(e.target.value)}
-            className="w-16 rounded border border-gray-300 bg-white px-2 py-1.5"
+          <MultiSelect
+            label="Interview Format"
+            options={formats}
+            selected={selFormats}
+            onChange={setSelFormats}
           />
-        </label>
 
-        <label className="flex items-center gap-1.5">
-          <input
-            type="checkbox"
-            checked={onlyStep2}
-            onChange={(e) => setOnlyStep2(e.target.checked)}
+          <MultiSelect
+            label="Visas Accepted"
+            options={[...VISA_OPTIONS]}
+            selected={selVisas}
+            onChange={setSelVisas}
           />
-          Has Step 2 CK range
-        </label>
 
-        <span className="ml-auto text-gray-500">
-          {filtered.length} of {rows.length} programs
-        </span>
+          <div>
+            <span className="mb-1 block text-xs font-medium text-gray-600">
+              Min interview rate %
+            </span>
+            <input
+              type="number"
+              value={minRate}
+              onChange={(e) => setMinRate(e.target.value)}
+              className="w-full rounded border border-gray-300 bg-white px-3 py-1.5"
+            />
+          </div>
 
-        <button
-          onClick={exportCsv}
-          className="rounded border border-gray-300 bg-white px-2 py-1 text-xs hover:bg-gray-100"
-        >
-          ⬇ Export CSV
-        </button>
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={onlyOsteopathic}
+              onChange={(e) => setOnlyOsteopathic(e.target.checked)}
+            />
+            Osteopathic Recognized
+          </label>
 
-        {hasFilters && (
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={onlyResearchTrack}
+              onChange={(e) => setOnlyResearchTrack(e.target.checked)}
+            />
+            Research track
+          </label>
+
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={onlyStep2}
+              onChange={(e) => setOnlyStep2(e.target.checked)}
+            />
+            Has Step 2 CK range
+          </label>
+
+          <p className="border-t border-gray-200 pt-3 text-xs text-gray-500">
+            Showing {filtered.length} of {rows.length} programs
+          </p>
+        </div>
+      </aside>
+
+      <section className="min-w-0 flex-1 px-6 py-5">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h1 className="text-xl font-semibold">Key Data View</h1>
           <button
-            onClick={clearFilters}
-            className="rounded border border-gray-300 bg-white px-2 py-1 text-xs hover:bg-gray-100"
+            onClick={exportCsv}
+            className="rounded border border-gray-300 bg-white px-3 py-1.5 text-sm hover:bg-gray-100"
           >
-            ✕ Clear filters
+            ⬇ Export CSV
           </button>
-        )}
-      </div>
+        </div>
 
-      <div className="mt-3 max-h-[75vh] overflow-auto rounded-lg border border-gray-200">
+        <div className="mt-3 max-h-[calc(100vh-9rem)] overflow-auto rounded-lg border border-gray-200">
         <table className="w-full text-left text-sm">
           <thead className="sticky top-0 z-10 bg-gray-50">
             <tr className="border-b border-gray-300">
@@ -395,12 +407,13 @@ export default function CustomTable({ rows }: { rows: CustomRow[] }) {
             ))}
           </tbody>
         </table>
-        {filtered.length === 0 && (
-          <p className="p-6 text-center text-sm text-gray-500">
-            No programs match the current filters.
-          </p>
-        )}
-      </div>
+          {filtered.length === 0 && (
+            <p className="p-6 text-center text-sm text-gray-500">
+              No programs match the current filters.
+            </p>
+          )}
+        </div>
+      </section>
     </div>
   );
 }

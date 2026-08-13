@@ -47,65 +47,84 @@ export default function ProgramTable({ programs }: { programs: ProgramRaw[] }) {
   }
 
   return (
-    <div>
-      <div className="mt-3 flex flex-wrap items-center gap-3 rounded-lg border border-gray-200 bg-gray-50 p-3 text-sm">
-        <input
-          type="text"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search program or city…"
-          className="w-64 rounded border border-gray-300 bg-white px-3 py-1.5"
-        />
+    <div className="flex w-full items-start">
+      <aside className="sticky top-14 h-[calc(100vh-3.5rem)] w-60 shrink-0 overflow-y-auto border-r border-gray-200 bg-gray-50 p-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-sm font-semibold">Filters</h2>
+          {hasFilters && (
+            <button
+              onClick={clearFilters}
+              className="text-xs text-blue-600 hover:underline"
+            >
+              Clear all
+            </button>
+          )}
+        </div>
 
-        <MultiSelect
-          label="State"
-          options={states}
-          selected={states_}
-          onChange={setStates}
-          width="w-44"
-        />
+        <div className="mt-4 space-y-4 text-sm">
+          <div>
+            <span className="mb-1 block text-xs font-medium text-gray-600">
+              Search
+            </span>
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Program or city…"
+              className="w-full rounded border border-gray-300 bg-white px-3 py-1.5"
+            />
+          </div>
 
-        <MultiSelect
-          label="Region"
-          options={regions}
-          selected={regions_}
-          onChange={setRegions}
-          width="w-56"
-        />
-
-        <label className="flex items-center gap-1.5">
-          <input
-            type="checkbox"
-            checked={onlyWithData}
-            onChange={(e) => setOnlyWithData(e.target.checked)}
+          <MultiSelect
+            label="State"
+            options={states}
+            selected={states_}
+            onChange={setStates}
           />
-          Has interview data
-        </label>
 
-        <label className="flex items-center gap-1.5">
-          <input
-            type="checkbox"
-            checked={onlyWithDetail}
-            onChange={(e) => setOnlyWithDetail(e.target.checked)}
+          <MultiSelect
+            label="Region"
+            options={regions}
+            selected={regions_}
+            onChange={setRegions}
           />
-          Has detail page
-        </label>
 
-        <span className="ml-auto text-gray-500">
-          {filtered.length} of {programs.length} programs
-        </span>
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={onlyWithData}
+              onChange={(e) => setOnlyWithData(e.target.checked)}
+            />
+            Has interview data
+          </label>
 
-        {hasFilters && (
-          <button
-            onClick={clearFilters}
-            className="rounded border border-gray-300 bg-white px-2 py-1 text-xs hover:bg-gray-100"
-          >
-            ✕ Clear filters
-          </button>
-        )}
-      </div>
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={onlyWithDetail}
+              onChange={(e) => setOnlyWithDetail(e.target.checked)}
+            />
+            Has detail page
+          </label>
 
-      <div className="mt-3 max-h-[70vh] overflow-auto rounded-lg border border-gray-200">
+          <p className="border-t border-gray-200 pt-3 text-xs text-gray-500">
+            Showing {filtered.length} of {programs.length} programs
+          </p>
+        </div>
+      </aside>
+
+      <section className="min-w-0 flex-1 px-6 py-5">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h1 className="text-xl font-semibold">
+            Neurology Programs ({programs.length}) — 2026 Cycle Interview Data
+          </h1>
+          <p className="text-xs text-gray-500">
+            <code>--</code> data not available &nbsp;·&nbsp; <code>!</code>{" "}
+            insufficient sample size
+          </p>
+        </div>
+
+        <div className="mt-3 max-h-[calc(100vh-8.5rem)] overflow-auto rounded-lg border border-gray-200">
         <table className="w-full text-left text-sm">
           <thead className="sticky top-0 bg-gray-50">
             <tr className="border-b border-gray-300">
@@ -175,12 +194,13 @@ export default function ProgramTable({ programs }: { programs: ProgramRaw[] }) {
             ))}
           </tbody>
         </table>
-        {filtered.length === 0 && (
-          <p className="p-6 text-center text-sm text-gray-500">
-            No programs match the current filters.
-          </p>
-        )}
-      </div>
+          {filtered.length === 0 && (
+            <p className="p-6 text-center text-sm text-gray-500">
+              No programs match the current filters.
+            </p>
+          )}
+        </div>
+      </section>
     </div>
   );
 }
