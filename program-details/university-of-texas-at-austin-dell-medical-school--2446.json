@@ -1,31 +1,31 @@
 {
-  "programId": 2418,
-  "externalId": "82e05c4c-e8d9-d66d-30d5-1b1ca70c20c2",
-  "name": "St Luke’s Hospital – Anderson Campus Program",
+  "programId": 2446,
+  "externalId": "aa541ebb-b4ae-62dc-52fc-f4fe7b88301f",
+  "name": "University of Texas at Austin Dell Medical School/Dell Seton Medical Center Program",
   "specialtyId": 49,
-  "sourceFile": "St Luke’s Hospital – Anderson Campus Program [2418].html",
-  "sourceUrl": "https://www.residencyexplorer.org/Program/GetByIdWithMedicalSpecialty/82e05c4c-e8d9-d66d-30d5-1b1ca70c20c2",
+  "sourceFile": "University of Texas at Austin Dell Medical School-Dell Seton Medical Center Program [2446].html",
+  "sourceUrl": "https://www.residencyexplorer.org/Program/GetByIdWithMedicalSpecialty/aa541ebb-b4ae-62dc-52fc-f4fe7b88301f",
   "contact": {
-    "phone": "(484) 426-2626",
-    "website": "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/neurology-residency",
-    "address": "St Luke’s Hospital – Anderson Campus Program 1872 St Luke's Blvd Easton, PA 18045",
-    "email": "Joan.Sweeney@sluhn.org",
-    "region": "Middle Atlantic",
-    "acgmeProgramCode": "1804100169",
-    "programDirector": "Joan Sweeney",
-    "programCoordinator": "Stacie McCarty",
-    "programCoordinatorPhone": "(484) 503-4003"
+    "phone": "(512) 924-0517",
+    "website": "https://dellmed.utexas.edu/education/academics/graduate-medical-education/neurology-residency",
+    "address": "Department of Neurology 1601 Trinity Street, Building B Stop Z0700 Austin, TX 78712",
+    "email": "jjackson1@ascension.org",
+    "region": "West South Central",
+    "acgmeProgramCode": "1804812156",
+    "programDirector": "Kent Ellington",
+    "programCoordinator": "Joy Kimmell",
+    "programCoordinatorPhone": "(512) 659-4532"
   },
   "quickFacts": {
-    "institutionalSetting": "Community-based university affiliated",
+    "institutionalSetting": "University Based",
     "accreditationStatus": "Continued Accreditation",
     "accreditationEffectiveDate": "1/29/2026",
     "accreditedTrainingLengthYears": 4,
     "priorYearActiveResidents": {
-      "total": 16,
-      "year1": 4,
-      "year2": 4,
-      "year3": 5
+      "total": 24,
+      "year1": 6,
+      "year2": 6,
+      "year3": 6
     }
   },
   "applicationDetails": {
@@ -33,67 +33,67 @@
     "interviewFormat": "Virtual (e.g., using Zoom, Teams, WebEx)",
     "priorGmeRequired": "No",
     "priorGmeYearsRequired": null,
-    "visaJ1SponsorshipEcfmg": "No",
+    "visaJ1SponsorshipEcfmg": "Yes",
     "visaH1B": "No",
     "visaF1Opt": "No",
-    "totalLettersOfRecommendation": "At least 3, No more than 4"
+    "totalLettersOfRecommendation": "At least 2, No more than 3"
   },
   "matchOutcomes2026": {
     "categorical": {
-      "positionsOffered": 4,
-      "positionsFilled": 4
+      "positionsOffered": 6,
+      "positionsFilled": 6
     }
   },
   "selectivity2026": {
-    "erasApplicants": 451,
+    "erasApplicants": 553,
     "specialtyAvgErasApplicants": 689,
-    "pctApplicantsInvitedToInterview": 26.8,
+    "pctApplicantsInvitedToInterview": null,
     "specialtyAvgPctInvited": 13.2,
-    "applicantsInvitedToInterviewCount": 121
+    "applicantsInvitedToInterviewCount": null
   },
   "applicants": {
-    "n_APPS2022": 631,
-    "n_APPS2023": 626,
-    "n_APPS2024": 526,
-    "n_APPS2025": 450,
-    "n_APPS2026": 451
+    "n_APPS2022": 660,
+    "n_APPS2023": 649,
+    "n_APPS2024": 631,
+    "n_APPS2025": 615,
+    "n_APPS2026": 553
   },
   "salaryTable": {
     "rows": [
       {
         "year": "Year 1",
-        "salary": "$70,966",
+        "salary": "$67,503",
         "salaryAlignmentStatus": 0,
-        "vacationDays": "21",
+        "vacationDays": "15",
         "vacationDaysAlignmentStatus": 0,
-        "sickDays": "Negotiable",
+        "sickDays": "10",
         "sickDaysAlignmentStatus": 0
       },
       {
         "year": "Year 2",
-        "salary": "$73,815",
+        "salary": "$69,657",
         "salaryAlignmentStatus": 0,
-        "vacationDays": "21",
+        "vacationDays": "15",
         "vacationDaysAlignmentStatus": 0,
-        "sickDays": "Negotiable",
+        "sickDays": "10",
         "sickDaysAlignmentStatus": 0
       },
       {
         "year": "Year 3",
-        "salary": "$76,775",
+        "salary": "$72,478",
         "salaryAlignmentStatus": 0,
-        "vacationDays": "21",
+        "vacationDays": "15",
         "vacationDaysAlignmentStatus": 0,
-        "sickDays": "Negotiable",
+        "sickDays": "10",
         "sickDaysAlignmentStatus": 0
       },
       {
         "year": "Year 4",
-        "salary": "$80,048",
+        "salary": "$75,368",
         "salaryAlignmentStatus": 0,
-        "vacationDays": "21",
+        "vacationDays": "15",
         "vacationDaysAlignmentStatus": 0,
-        "sickDays": "Negotiable",
+        "sickDays": "10",
         "sickDaysAlignmentStatus": 0
       }
     ]
@@ -101,28 +101,28 @@
   "chartSet": {
     "residentCareerPlans": {
       "series": {
-        "Continue training in another \nresidency or fellowship program": 75,
-        "Practice Full-time": 25,
-        "Obtain full- or part-time \nacademic position": 0,
-        "Other career \nintentions or plans": 0
+        "Continue training in another \nresidency or fellowship program": 82,
+        "Practice Full-time": 12,
+        "Other career \nintentions or plans": 6,
+        "Obtain full- or part-time \nacademic position": 0
       },
       "parameters": null
     },
     "topTenSchools": {
       "series": {
-        "Lake Erie College of Osteopathic Medicine-Erie": 19,
-        "Philadelphia College of Osteopathic Medicine": 13,
-        "Rowan-Virtua School of Osteopathic Medicine": 13,
-        "More than 1 school \n has this rank*": 6
+        "The University of Texas at San Antonio Joe R. and Teresa Lozano Long School of Medicine": 13,
+        "University of North Texas Health Science Center Texas College of Osteopathic Medicine": 8,
+        "McGovern Medical School at UTHealth Houston": 8,
+        "More than 1 school \n has this rank*": 4
       },
       "parameters": null
     },
     "race": {
       "series": {
-        "White": 56,
-        "Asian": 38,
-        "Hispanic, Latino, or of Spanish Origin": 13,
-        "Black or African American": 0,
+        "White": 46,
+        "Asian": 42,
+        "Black or African American": 25,
+        "Hispanic, Latino, or of Spanish Origin": 4,
         "Middle Eastern or North African": 0,
         "American Indian or Alaska Native": 0,
         "Native Hawaiian or Other Pacific Islander": 0,
@@ -135,8 +135,8 @@
       "series": {
         "White": 41,
         "Asian": 37,
-        "Hispanic, Latino, or of Spanish Origin": 12,
         "Black or African American": 6,
+        "Hispanic, Latino, or of Spanish Origin": 12,
         "Middle Eastern or North African": 4,
         "American Indian or Alaska Native": 0,
         "Native Hawaiian or Other Pacific Islander": 0,
@@ -147,17 +147,17 @@
     },
     "studentType": {
       "series": {
-        "US DO Graduates": 75,
-        "US MD Graduates": 25,
-        "US-IMG": 0,
+        "US MD Graduates": 67,
+        "US DO Graduates": 25,
+        "US-IMG": 8,
         "Non-US IMG": 0
       },
       "parameters": null
     },
     "specialtyStudentType": {
       "series": {
-        "US DO Graduates": 19,
         "US MD Graduates": 46,
+        "US DO Graduates": 19,
         "US-IMG": 12,
         "Non-US IMG": 23
       },
@@ -165,8 +165,8 @@
     },
     "sex": {
       "series": {
-        "Men": 56,
-        "Women": 44,
+        "Women": 83,
+        "Men": 17,
         "Another Gender": 0,
         "Did Not Report": 0
       },
@@ -174,8 +174,8 @@
     },
     "specialtySex": {
       "series": {
-        "Men": 49,
         "Women": 50,
+        "Men": 49,
         "Another Gender": 0,
         "Did Not Report": 1
       },
@@ -183,222 +183,222 @@
     },
     "signal": {
       "series": {
-        "Sent": 44,
-        "Did Not Send": 25
+        "Sent": null,
+        "Did Not Send": null
       },
       "parameters": {
-        "countSent": 48,
-        "countDidNotSend": 403
+        "countSent": null,
+        "countDidNotSend": null
       }
     },
     "signalCompositionOfApplicants": {
       "series": {
-        "Sent": 11,
-        "Did Not Send": 89
+        "Sent": null,
+        "Did Not Send": null
       },
       "parameters": null
     },
     "signalCompositionOfInvitedToInterview": {
       "series": {
-        "Sent": 17,
-        "Did Not Send": 83
+        "Sent": null,
+        "Did Not Send": null
       },
       "parameters": null
     },
     "geographicPreference": {
       "series": {
-        "Aligned": 35,
-        "Not Aligned": 10,
-        "No Preference": 6
+        "Aligned": null,
+        "Not Aligned": null,
+        "No Preference": null
       },
       "parameters": {
-        "countAligned": 311,
-        "countNotAligned": 93,
-        "countNoPreference": 47
+        "countAligned": null,
+        "countNotAligned": null,
+        "countNoPreference": null
       }
     },
     "geographicPreferenceApplicants": {
       "series": {
-        "Aligned": 69,
-        "Not Aligned": 21,
-        "No Preference": 10
+        "Aligned": null,
+        "Not Aligned": null,
+        "No Preference": null
       },
       "parameters": null
     },
     "geographicPreferenceInvitedToInterview": {
       "series": {
-        "Aligned": 90,
-        "Not Aligned": 7,
-        "No Preference": 2
+        "Aligned": null,
+        "Not Aligned": null,
+        "No Preference": null
       },
       "parameters": null
     },
     "homeStateProgram": {
       "series": {
-        "In-State": 67,
-        "Out-of-State": 19
+        "In-State": null,
+        "Out-of-State": null
       },
       "parameters": {
-        "countAligned": 73,
-        "countNotAligned": 378
+        "countAligned": null,
+        "countNotAligned": null
       }
     },
     "homeStateProgramApplicants": {
       "series": {
-        "In-State": 16,
-        "Out-of-State": 84
+        "In-State": null,
+        "Out-of-State": null
       },
       "parameters": null
     },
     "homeStateProgramInvitedToInterview": {
       "series": {
-        "In-State": 40,
-        "Out-of-State": 60
+        "In-State": null,
+        "Out-of-State": null
       },
       "parameters": null
     },
     "medicalSchoolStateProgram": {
       "series": {
-        "In-State": 79,
-        "Out-of-State": 20
+        "In-State": null,
+        "Out-of-State": null
       },
       "parameters": {
-        "countAligned": 53,
-        "countNotAligned": 398
+        "countAligned": null,
+        "countNotAligned": null
       }
     },
     "medicalSchoolStateProgramApplicant": {
       "series": {
-        "In-State": 12,
-        "Out-of-State": 88
+        "In-State": null,
+        "Out-of-State": null
       },
       "parameters": null
     },
     "medicalSchoolStateProgramInvitedToInterview": {
       "series": {
-        "In-State": 35,
-        "Out-of-State": 65
+        "In-State": null,
+        "Out-of-State": null
       },
       "parameters": null
     },
     "usmleStep1Level1": {
       "series": {
-        "Never Failed": 29,
-        "Ever Failed": 11
+        "Never Failed": null,
+        "Ever Failed": null
       },
       "parameters": {
-        "countEverFailed": 54,
-        "countNeverFailed": 394
+        "countEverFailed": null,
+        "countNeverFailed": null
       }
     },
     "usmleStep1Level1Applicant": {
       "series": {
-        "Never Failed": 88,
-        "Ever Failed": 12
+        "Never Failed": null,
+        "Ever Failed": null
       },
       "parameters": null
     },
     "usmleStep1Level1InvitedToInterview": {
       "series": {
-        "Never Failed": 95,
-        "Ever Failed": 5
+        "Never Failed": null,
+        "Ever Failed": null
       },
       "parameters": null
     },
     "usmleStep2Level2": {
       "series": {
-        "Never Failed": 30,
-        "Ever Failed": 0
+        "Never Failed": null,
+        "Ever Failed": null
       },
       "parameters": {
-        "countEverFailed": 37,
-        "countNeverFailed": 406
+        "countEverFailed": null,
+        "countNeverFailed": null
       }
     },
     "usmleStep2Level2Applicant": {
       "series": {
-        "Never Failed": 92,
-        "Ever Failed": 8
+        "Never Failed": null,
+        "Ever Failed": null
       },
       "parameters": null
     },
     "usmleStep2Level2InvitedToInterview": {
       "series": {
-        "Never Failed": 100,
-        "Ever Failed": 0
+        "Never Failed": null,
+        "Ever Failed": null
       },
       "parameters": null
     },
     "applicantType": {
       "series": {
-        "US MD": 46,
-        "US DO": 31,
-        "US IMG": 0,
-        "Non-US IMG": 0
+        "US MD": null,
+        "US DO": null,
+        "US IMG": null,
+        "Non-US IMG": null
       },
       "parameters": {
-        "countUsmd": 151,
-        "countUsdo": 163,
-        "countUsimg": 75,
-        "countFmg": 62
+        "countUsmd": null,
+        "countUsdo": null,
+        "countUsimg": null,
+        "countFmg": null
       }
     },
     "applicantTypeApp": {
       "series": {
-        "US MD": 33,
-        "US DO": 36,
-        "US IMG": 17,
-        "Non-US IMG": 14
+        "US MD": null,
+        "US DO": null,
+        "US IMG": null,
+        "Non-US IMG": null
       },
       "parameters": null
     },
     "applicantTypeInvitedToInterview": {
       "series": {
-        "US MD": 58,
-        "US DO": 42,
-        "US IMG": 0,
-        "Non-US IMG": 0
+        "US MD": null,
+        "US DO": null,
+        "US IMG": null,
+        "Non-US IMG": null
       },
       "parameters": null
     },
     "step2CKScores": [
       {
         "series": {
-          "lower": 228,
-          "q1": 237,
-          "median": 247,
-          "q3": 256,
-          "upper": 264
+          "lower": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "upper": null
         },
         "parameters": {
           "applicant": "All Applicants Invited",
-          "status": 1
+          "status": null
         }
       },
       {
         "series": {
-          "lower": 228,
-          "q1": 238,
-          "median": 247,
-          "q3": 255,
-          "upper": 266
+          "lower": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "upper": null
         },
         "parameters": {
           "applicant": "MD Applicants Invited",
-          "status": 1
+          "status": null
         }
       },
       {
         "series": {
-          "lower": 227,
-          "q1": 232,
-          "median": 246,
-          "q3": 257,
-          "upper": 264
+          "lower": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "upper": null
         },
         "parameters": {
           "applicant": "DO Applicants Invited",
-          "status": 1
+          "status": null
         }
       },
       {
@@ -431,15 +431,15 @@
     "level2CEScores": [
       {
         "series": {
-          "lower": 472,
-          "q1": 498,
-          "median": 570,
-          "q3": 630,
-          "upper": 688
+          "lower": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "upper": null
         },
         "parameters": {
           "applicant": "DO Applicants Invited",
-          "status": 1
+          "status": null
         }
       }
     ]
@@ -475,7 +475,7 @@
         "subGroup": null,
         "name": "Total residents in program",
         "myProfileSelection": "-",
-        "programOffering": "16",
+        "programOffering": "24",
         "alignmentStatus": 0
       },
       {
@@ -483,7 +483,7 @@
         "subGroup": null,
         "name": "Total residents in entering cohort",
         "myProfileSelection": "-",
-        "programOffering": "4",
+        "programOffering": "6",
         "alignmentStatus": 0
       },
       {
@@ -547,7 +547,7 @@
         "subGroup": "Special tracks",
         "name": "Other",
         "myProfileSelection": "-",
-        "programOffering": "-",
+        "programOffering": "Distinction Track",
         "alignmentStatus": 0
       },
       {
@@ -555,7 +555,7 @@
         "subGroup": "Program offerings",
         "name": "Academic support for USMLE Step 3/COMLEX-USA Level 3 preparation",
         "myProfileSelection": "-",
-        "programOffering": "Yes",
+        "programOffering": "No",
         "alignmentStatus": 0
       },
       {
@@ -579,7 +579,7 @@
         "subGroup": "Program offerings",
         "name": "Economics of health care systems curriculum",
         "myProfileSelection": "-",
-        "programOffering": "No",
+        "programOffering": "Yes",
         "alignmentStatus": 0
       },
       {
@@ -603,7 +603,7 @@
         "subGroup": "Program offerings",
         "name": "Hospice/home care experience",
         "myProfileSelection": "-",
-        "programOffering": "Yes",
+        "programOffering": "No",
         "alignmentStatus": 0
       },
       {
@@ -627,7 +627,7 @@
         "subGroup": "Program offerings",
         "name": "International experience/global health",
         "myProfileSelection": "-",
-        "programOffering": "No",
+        "programOffering": "Yes",
         "alignmentStatus": 0
       },
       {
@@ -659,7 +659,7 @@
         "subGroup": null,
         "name": "Average hours per week in Year 1 that residents/fellows are expected to attend regularly scheduled lectures/conferences",
         "myProfileSelection": "-",
-        "programOffering": "5",
+        "programOffering": "6",
         "alignmentStatus": 0
       },
       {
@@ -707,7 +707,7 @@
         "subGroup": null,
         "name": "Number of paid days for Family/Medical leave",
         "myProfileSelection": "-",
-        "programOffering": "Negotiable",
+        "programOffering": "35",
         "alignmentStatus": 0
       },
       {
@@ -715,7 +715,7 @@
         "subGroup": null,
         "name": "Number of unpaid days for Family/Medical leave",
         "myProfileSelection": "-",
-        "programOffering": "Negotiable",
+        "programOffering": "-",
         "alignmentStatus": 0
       },
       {
@@ -747,7 +747,7 @@
         "subGroup": null,
         "name": "Placement assistance upon program completion into practice, fellowship, or academia",
         "myProfileSelection": "-",
-        "programOffering": "Yes",
+        "programOffering": "No",
         "alignmentStatus": 0
       },
       {
@@ -755,7 +755,7 @@
         "subGroup": null,
         "name": "Subsidized child care",
         "myProfileSelection": "-",
-        "programOffering": "Yes",
+        "programOffering": "No",
         "alignmentStatus": 0
       },
       {
@@ -771,7 +771,7 @@
         "subGroup": null,
         "name": "Institutional setting",
         "myProfileSelection": "",
-        "programOffering": "Community-based university affiliated",
+        "programOffering": "University Based",
         "alignmentStatus": 0
       },
       {
@@ -779,7 +779,7 @@
         "subGroup": null,
         "name": "Average number of days off per week in year one",
         "myProfileSelection": "-",
-        "programOffering": "2",
+        "programOffering": "1",
         "alignmentStatus": 0
       },
       {
@@ -795,7 +795,7 @@
         "subGroup": null,
         "name": "Maximum consecutive hours a resident is allowed to work in year 1 (excluding beeper and at home call)",
         "myProfileSelection": "-",
-        "programOffering": "12",
+        "programOffering": "14",
         "alignmentStatus": 0
       },
       {
@@ -803,7 +803,7 @@
         "subGroup": null,
         "name": "Program allows residents/fellows beyond PGY1 to moonlight",
         "myProfileSelection": "-",
-        "programOffering": "No",
+        "programOffering": "Yes",
         "alignmentStatus": 0
       },
       {
@@ -811,7 +811,7 @@
         "subGroup": null,
         "name": "Percentage of training spent by residents/fellows in Year 1 of the program in hospital outpatient clinics in all teaching hospitals used",
         "myProfileSelection": "-",
-        "programOffering": "Not Applicable",
+        "programOffering": "40%",
         "alignmentStatus": 0
       },
       {
@@ -819,7 +819,7 @@
         "subGroup": null,
         "name": "Percentage of training spent by residents/fellows in Year 1 of the program in ambulatory nonhospital community-based settings not attached to any hospital (e.g., physician offices, community clinics)",
         "myProfileSelection": "-",
-        "programOffering": "20%",
+        "programOffering": "10%",
         "alignmentStatus": 0
       },
       {
@@ -835,7 +835,7 @@
         "subGroup": null,
         "name": "Percentage of current residents who are Asian",
         "myProfileSelection": "-",
-        "programOffering": "38%",
+        "programOffering": "42%",
         "alignmentStatus": 0
       },
       {
@@ -843,7 +843,7 @@
         "subGroup": null,
         "name": "Percentage of current residents who are Black or African American",
         "myProfileSelection": "-",
-        "programOffering": "0%",
+        "programOffering": "25%",
         "alignmentStatus": 0
       },
       {
@@ -851,7 +851,7 @@
         "subGroup": null,
         "name": "Percentage of current residents who are Hispanic or Latino",
         "myProfileSelection": "-",
-        "programOffering": "13%",
+        "programOffering": "4%",
         "alignmentStatus": 0
       },
       {
@@ -875,7 +875,7 @@
         "subGroup": null,
         "name": "Percentage of current residents who are White",
         "myProfileSelection": "-",
-        "programOffering": "56%",
+        "programOffering": "46%",
         "alignmentStatus": 0
       },
       {
@@ -891,7 +891,7 @@
         "subGroup": null,
         "name": "Percentage of current residents who are Men",
         "myProfileSelection": "-",
-        "programOffering": "56%",
+        "programOffering": "17%",
         "alignmentStatus": 0
       },
       {
@@ -899,7 +899,7 @@
         "subGroup": null,
         "name": "Percentage of current residents who are Women",
         "myProfileSelection": "-",
-        "programOffering": "44%",
+        "programOffering": "83%",
         "alignmentStatus": 0
       },
       {
@@ -915,7 +915,7 @@
         "subGroup": null,
         "name": "Percentage of current residents who are US MD graduates",
         "myProfileSelection": "-",
-        "programOffering": "25%",
+        "programOffering": "67%",
         "alignmentStatus": 0
       },
       {
@@ -923,7 +923,7 @@
         "subGroup": null,
         "name": "Percentage of current residents who are US DO graduates",
         "myProfileSelection": "-",
-        "programOffering": "75%",
+        "programOffering": "25%",
         "alignmentStatus": 0
       },
       {
@@ -931,7 +931,7 @@
         "subGroup": null,
         "name": "Percentage of current residents who are US-IMG",
         "myProfileSelection": "-",
-        "programOffering": "0%",
+        "programOffering": "8%",
         "alignmentStatus": 0
       },
       {
@@ -955,7 +955,7 @@
         "subGroup": null,
         "name": "Percentage of program graduates who continue training in another residency or fellowship program",
         "myProfileSelection": "-",
-        "programOffering": "75%",
+        "programOffering": "82%",
         "alignmentStatus": 0
       },
       {
@@ -963,7 +963,7 @@
         "subGroup": null,
         "name": "Percentage of program graduates who practice full-time",
         "myProfileSelection": "-",
-        "programOffering": "25%",
+        "programOffering": "12%",
         "alignmentStatus": 0
       },
       {
